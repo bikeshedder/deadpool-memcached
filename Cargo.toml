@@ -1,0 +1,24 @@
+[package]
+name = "deadpool-memcached"
+version = "0.1.0"
+authors = ["Toby Lawrence <toby@nuclearfurnace.com>"]
+description = "Dead simple async pool for memcached"
+keywords = ["async", "memcached", "pool"]
+license = "MIT"
+repository = "https://github.com/nuclearfurnace/deadpool-memcached"
+readme = "README.md"
+edition = "2018"
+
+[package.metadata.docs.rs]
+all-features = true
+
+[features]
+default = ["tcp"]
+tcp = ["async-memcached/tcp"]
+
+[dependencies]
+deadpool = { version = "0.5.2", default-features = false, features = ["managed"] }
+async-trait = "0.1.17"
+futures = { version = "0.3.1", features = ["compat"] }
+log = "0.4"
+async-memcached = { git = "https://github.com/nuclearfurnace/async-memcached.git", default-features = false }
