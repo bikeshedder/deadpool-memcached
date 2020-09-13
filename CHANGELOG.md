@@ -1,5 +1,15 @@
-# Change Log
+# Changelog
+All notable changes to this project will be documented in this file.
 
-## v0.1.0
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+<!-- next-header -->
+
+## [Unreleased] - ReleaseDate
+### Changed
+- Small documentation fixes and relaxed dependency version constraints.
+
+## v0.1.0 - 2020-08-13
 ### Added
 - Initial release.

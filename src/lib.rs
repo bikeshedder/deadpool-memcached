@@ -6,7 +6,7 @@
 //! [`async-memcached`](https://crates.io/crates/async-memcached).  We specifically force users to
 //! connect via TCP as there is no existing mechanism to parameterize how to deal with different
 //! unerlying connection types at the moment.
-#![warn(missing_docs)]
+#![deny(warnings, missing_docs)]
 use async_memcached::{Client, Error};
 use async_trait::async_trait;
 
