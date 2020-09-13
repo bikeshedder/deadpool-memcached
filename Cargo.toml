@@ -1,6 +1,6 @@
 [package]
 name = "deadpool-memcached"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Toby Lawrence <toby@nuclearfurnace.com>"]
 description = "Dead simple async pool for memcached"
 keywords = ["async", "memcached", "pool"]
